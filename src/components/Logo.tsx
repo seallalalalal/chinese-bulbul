@@ -1,6 +1,6 @@
 function Logo() {
   return (
-    <div className="w-12 h-12 sm:w-24 sm:h-24 rounded-full shadow-[0_0_6px_0_rgba(0,0,0,0.25)] bg-white sm:absolute left-[274px]">
+    <div className="w-12 h-12 md:w-24 md:h-24 rounded-full shadow-[0_0_6px_0_rgba(0,0,0,0.25)] bg-white md:absolute left-[274px]">
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"

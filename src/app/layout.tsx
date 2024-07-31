@@ -29,7 +29,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="min-h-dvh md:flex-row flex-col flex">
           <Sidebar items={menuItems} />
-          <div className="flex flex-col w-full min-h-dvh">{children}</div>
+          <div className="flex flex-col w-full min-h-dvh overflow-y-auto">
+            {children}
+          </div>
         </main>
       </body>
     </html>
