@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import Sidebar from "@/components/Sidebar";
 import { MenuItem } from "@/type/MenuItem";
+import "./globals.css";
 
 const menuItems: MenuItem[] = [
   { key: "characteristic", path: "/characteristic", label: "白頭翁的特性" },
