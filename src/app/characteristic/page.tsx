@@ -37,7 +37,7 @@ export default function Page() {
           年。
         </div>
       </div>
-      <div className="bg-[#DCCCBC] flex xl:flex-row flex-col lg:min-h-2/5 justify-evenly py-14 px-12 gap-12 items-center xl:h-2/5 min-h-[calc(100%-339px)]">
+      <div className="bg-[#DCCCBC] flex xl:flex-row flex-col lg:min-h-max justify-evenly py-14 px-12 gap-12 items-center lg:h-2/5 min-h-[calc(100%-339px)]">
         {pageContent.map((pg) => (
           <div key={pg.title} className="flex flex-row gap-5 max-w-[278px]">
             <Title>{pg.title}</Title>
